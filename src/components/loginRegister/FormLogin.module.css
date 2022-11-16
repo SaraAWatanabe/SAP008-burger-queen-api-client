@@ -1,0 +1,13 @@
+.input{
+    background-color: white;
+    width: 75%;
+    margin:auto;
+    margin-bottom: 5%;
+    font-size: 18px;
+}
+
+.formLoginContainer{
+    margin:30% 0 65% 0;
+    display: flex;
+    flex-direction: column;
+}

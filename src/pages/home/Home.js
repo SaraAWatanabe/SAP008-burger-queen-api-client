@@ -1,10 +1,9 @@
-import styles from './Home.modules.css'
+import styles from './Home.module.css'
 
-function HomePage(){
+export function HomePage(){
     return(
         <div className={styles.conteinerHome} >
             Login Page
         </div>
     );
 }
-export default HomePage

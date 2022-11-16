@@ -10,8 +10,4 @@ root.render(
   </React.StrictMode>
 );
 
-export function MyButton() {
-  return(
-    <button> Clique Aqui </button>
-  );
-}
+

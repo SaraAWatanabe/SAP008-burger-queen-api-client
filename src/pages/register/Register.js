@@ -1,10 +1,10 @@
-import styles from './Register.modules.css'
+import { NavLoginRegister } from "../../components/loginRegister/NavLoginRegister";
+import styles from "./Register.module.css";
+import {FormRegister} from "../../components/loginRegister/FormRegister"
 
-function RegisterPage(){
-    return(
-        <div className={styles.conteinerRegister} >
-        Login Page
-    </div>
-    );
+export function RegisterPage() {
+  return <div className={styles.conteinerRegister}>
+    <NavLoginRegister/>
+    <FormRegister></FormRegister>
+  </div>;
 }
-export default RegisterPage

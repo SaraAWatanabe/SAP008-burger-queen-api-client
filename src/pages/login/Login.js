@@ -1,17 +1,13 @@
-import styles from './Login.modules.css'
-import { NavLoginRegister } from '../../components/login_register/NavLoginRegister';
-import {FormLogin} from '../../components/login_register/FormLogin'
+import styles from './Login.module.css'
+import { NavLoginRegister } from '../../components/loginRegister/NavLoginRegister';
+import {FormLogin} from '../../components/loginRegister/FormLogin'
 
 
-function LoginPage(){
+export function LoginPage(){
     return( 
-        <div className={styles.conteinerLogin}>
-            Login Page
-          <img alt='logo' className='logo'/>
+        <div className={styles.containerLogin}>
           <NavLoginRegister/>
           <FormLogin/>
-
         </div>
     );
 }
-export default LoginPage
